@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyber Safety Awareness</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <nav>
+        <h2>CyberSafe</h2>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#threats">Threats</a></li>
+            <li><a href="#tips">Safety Tips</a></li>
+            <li><a href="#quiz">Quiz</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="hero" id="home">
+    <h1>Stay Safe Online</h1>
+    <p>Learn how to protect yourself from cyber threats and become a responsible internet user.</p>
+    <a href="#tips" class="btn">Learn More</a>
+</section>
+
+<section id="threats">
+    <h2>Common Cyber Threats</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>🎣 Phishing</h3>
+            <p>Fake emails or websites designed to steal passwords and personal information.</p>
+        </div>
+
+        <div class="card">
+            <h3>🦠 Malware</h3>
+            <p>Viruses and harmful software that can damage your computer or steal your data.</p>
+        </div>
+
+        <div class="card">
+            <h3>😠 Cyberbullying</h3>
+            <p>Harassing or threatening people through social media, games or messaging apps.</p>
+        </div>
+
+        <div class="card">
+            <h3>🕵 Identity Theft</h3>
+            <p>Someone using your personal information to pretend to be you.</p>
+        </div>
+
+    </div>
+</section>
+
+<section id="tips">
+    <h2>Cyber Safety Tips</h2>
+
+    <ul class="tips">
+        <li>✔ Use strong and unique passwords.</li>
+        <li>✔ Enable Two-Factor Authentication.</li>
+        <li>✔ Never share OTPs or passwords.</li>
+        <li>✔ Keep software updated.</li>
+        <li>✔ Avoid suspicious links.</li>
+        <li>✔ Download apps only from trusted sources.</li>
+        <li>✔ Install antivirus software.</li>
+        <li>✔ Think before sharing personal information.</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Create Strong Passwords</h2>
+
+    <table>
+        <tr>
+            <th>Weak Password</th>
+            <th>Strong Password</th>
+        </tr>
+
+        <tr>
+            <td>password123</td>
+            <td>R0cket@2026!</td>
+        </tr>
+
+        <tr>
+            <td>qwerty</td>
+            <td>Blue#Tiger91</td>
+        </tr>
+
+        <tr>
+            <td>12345678</td>
+            <td>Mango$Tree42</td>
+        </tr>
+    </table>
+</section>
+
+<section>
+    <h2>How to Spot Phishing</h2>
+
+    <table>
+        <tr>
+            <th>Fake Website</th>
+            <th>Safe Website</th>
+        </tr>
+
+        <tr>
+            <td>Urgent messages</td>
+            <td>Professional language</td>
+        </tr>
+
+        <tr>
+            <td>Unknown sender</td>
+            <td>Verified sender</td>
+        </tr>
+
+        <tr>
+            <td>Misspelled URL</td>
+            <td>Correct domain</td>
+        </tr>
+
+        <tr>
+            <td>Grammar mistakes</td>
+            <td>Proper grammar</td>
+        </tr>
+
+    </table>
+</section>
+
+<section>
+    <h2>Social Media Safety</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            Keep your account private.
+        </div>
+
+        <div class="card">
+            Accept requests only from people you know.
+        </div>
+
+        <div class="card">
+            Never share your location publicly.
+        </div>
+
+        <div class="card">
+            Report fake or suspicious accounts.
+        </div>
+
+    </div>
+
+</section>
+
+<section>
+    <h2>What To Do If You Get Hacked</h2>
+
+    <ol>
+        <li>Change your password immediately.</li>
+        <li>Enable Two-Factor Authentication.</li>
+        <li>Scan your device for malware.</li>
+        <li>Inform your bank if financial data is involved.</li>
+        <li>Report the cybercrime.</li>
+    </ol>
+</section>
+
+<section>
+    <h2>Cyber Safety Facts</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            📧 Most cyber attacks begin with phishing emails.
+        </div>
+
+        <div class="card">
+            🔑 Weak passwords are among the biggest causes of hacked accounts.
+        </div>
+
+        <div class="card">
+            📶 Public Wi-Fi can be risky if unsecured.
+        </div>
+
+    </div>
+</section>
+
+<section id="quiz">
+    <h2>Cyber Safety Quiz</h2>
+
+    <div class="quiz">
+
+        <p>1. Which password is the strongest?</p>
+
+        <input type="radio" name="q1" value="0">password123<br>
+        <input type="radio" name="q1" value="1">R0cket@2026!<br>
+        <input type="radio" name="q1" value="0">12345678<br>
+
+        <p>2. Should you share your OTP?</p>
+
+        <input type="radio" name="q2" value="0">Yes<br>
+        <input type="radio" name="q2" value="1">No<br>
+
+        <p>3. Public Wi-Fi is always safe.</p>
+
+        <input type="radio" name="q3" value="0">True<br>
+        <input type="radio" name="q3" value="1">False<br>
+
+        <p>4. What should you do before clicking a link?</p>
+
+        <input type="radio" name="q4" value="1">Check if it's trustworthy<br>
+        <input type="radio" name="q4" value="0">Click immediately<br>
+
+        <p>5. What should you do if hacked?</p>
+
+        <input type="radio" name="q5" value="1">Change password immediately<br>
+        <input type="radio" name="q5" value="0">Ignore it<br><br>
+
+        <button onclick="checkQuiz()">Submit Quiz</button>
+
+        <h3 id="result"></h3>
+
+    </div>
+
+</section>
+
+<footer>
+    <h3>Stay Safe • Stay Smart • Stay Secure</h3>
+    <p>Cyber Safety Awareness Website</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
